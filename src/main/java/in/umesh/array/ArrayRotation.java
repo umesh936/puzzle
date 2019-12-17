@@ -1,4 +1,4 @@
-package in.umesh.array;
+package umesh.src.array;
 
 /**
 *  Puzzle here to solve the rotation of element around array by given number.
@@ -36,7 +36,7 @@ public class ArrayRotation {
 				tmp = A[sour];
 			}
 			i++;
-			
+
 		}
 		return A;
 
