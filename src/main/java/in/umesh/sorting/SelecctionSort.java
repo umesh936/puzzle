@@ -1,4 +1,4 @@
-package in.umesh.sorting;
+package umesh.sorting;
 
 public class SelecctionSort {
 	public static int[] solution(int[] A)

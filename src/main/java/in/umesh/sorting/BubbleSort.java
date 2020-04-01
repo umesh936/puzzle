@@ -1,4 +1,4 @@
-package in.umesh.sorting;
+package umesh.sorting;
 
 public class BubbleSort {
 	public static int[] solution(int[] A)

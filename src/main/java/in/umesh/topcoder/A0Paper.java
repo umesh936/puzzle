@@ -61,6 +61,13 @@ import static java.lang.Math.*;
  */
 public class A0Paper {
 
+
+    public String canBuildBest(int[] a) {
+        for (int i = a.length - 2; i >= 0; i--)
+            a[i] += (a[i + 1]) / 2;
+        return a[0] > 0 ? "Possible" : "Impossible";
+    }
+
     static String canBuild(int[] A) {
         int pointer = -1;
         int pointToMeet = -1;
@@ -86,6 +93,7 @@ public class A0Paper {
         }
         return "Impossible";
     }
+
 
     public static void main(String[] args) {
         System.out.println(canBuild(new int[]{0, 3})); // Possible

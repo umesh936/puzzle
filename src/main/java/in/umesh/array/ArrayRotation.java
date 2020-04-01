@@ -1,4 +1,4 @@
-package umesh.src.array;
+package umesh.array;
 
 /**
 *  Puzzle here to solve the rotation of element around array by given number.

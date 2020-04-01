@@ -1,18 +1,18 @@
-package in.umesh.sorting;
+package umesh.sorting;
 
 public class RecursiveBubbleSort {
 	public static void solution(int[] A, int length) {
 		if (length == 1)
 			return;
-		
-			for (int j = 0; j < length; j++) 
+
+			for (int j = 0; j < length; j++)
 				if (A[j] > A[j+1]) {
 					int tmp = A[j+1];
 					A[j+1] = A[j];
 					A[j] = tmp;
 				}
 			solution(A,length-1);
-		
+
 	}
 
 	public static void main(String[] args) {

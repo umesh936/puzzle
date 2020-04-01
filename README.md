@@ -1,2 +1,2 @@
 # puzzle
-Repo is used to solve puzzle problem
+Repo is used to solve puzzle/ algo problem problem
