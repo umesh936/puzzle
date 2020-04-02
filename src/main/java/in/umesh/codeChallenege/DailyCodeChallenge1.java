@@ -15,10 +15,12 @@ import java.util.Map;
  * Bonus: Can you do this in one pass?
  * </pre>
  */
-public class FindPairToMakeGivenSum {
+public class DailyCodeChallenge1 {
 
     public static void solution1(List<Integer> input, Integer sum) {
         Map<Integer, Integer> map = new HashMap<>();
+        if (sum == null || input.size() == 0)
+            return;
         for (Integer num : input) {
             Integer pairObject = map.get(num);
             if (pairObject == null)
