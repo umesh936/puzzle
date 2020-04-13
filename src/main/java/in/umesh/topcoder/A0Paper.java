@@ -62,7 +62,7 @@ import static java.lang.Math.*;
 public class A0Paper {
 
 
-    public String canBuildBest(int[] a) {
+    public static String canBuildBest(int[] a) {
         for (int i = a.length - 2; i >= 0; i--)
             a[i] += (a[i + 1]) / 2;
         return a[0] > 0 ? "Possible" : "Impossible";
@@ -100,6 +100,6 @@ public class A0Paper {
         System.out.println(canBuild(new int[]{0, 1, 0, 3})); // Impossible
         System.out.println(canBuild(new int[]{0, 0, 0, 0, 15})); // Impossible
         System.out.println(canBuild(new int[]{0, 1, 0, 3,2})); // possible
-        System.out.println(canBuild(new int[]{2,0,0,0,0,0,0,3,2,0,0,5,0,3,0,0,1,0,0,0,5})); // possible
+        System.out.println(canBuildBest(new int[]{2,0,0,0,0,0,0,3,2,0,0,5,0,3,0,0,1,0,0,0,5})); // possible
     }
 }
