@@ -12,6 +12,10 @@ package umesh.codeChallenege;
  *
  * You can modify the input array in-place.
  *
+ * Since the first missing positive number must be between 1 and len(array) + 1 (why?), we can ignore any negative numbers and numbers bigger than len(array).
+ * The basic idea is to use the indices of the array itself to reorder the elements to where they should be.
+ * We traverse the array and swap elements between 0 and the length of the array to their value’s index.
+ * We stay at each index until we find that index’s value and keep on swapping.
  * </Pre>
  */
 public class DailyCodeChallenge4 {
