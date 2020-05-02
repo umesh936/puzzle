@@ -23,7 +23,7 @@ import umesh.helperDS.Node;
  * </pre>
  * </Pre>
  */
-public class DailyCodeChallenge8 {
+public class DailyCodeChallenge8_d {
 
     public static int countUnivalTree(Node root) {
         int result = 0;

@@ -19,7 +19,7 @@ package umesh.codeChallenege;
  * 6 is missing from first array.
  * </pre>
  */
-public class DailyCodeChallenge5 {
+public class DailyCodeChallenge5_d {
 
 
     public static void findMissing(Integer[] fullSet, Integer[] partialSet) {
@@ -38,7 +38,7 @@ public class DailyCodeChallenge5 {
 
     public static void main(String[] args) {
         Integer[] fullList = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
-        Integer[] partialList = new Integer[]{1, 2, 3, 4, 5, 7, 8, 9};
+        Integer[] partialList = new Integer[]{1, 2, 3, 5, 4, 7, 8, 9};
         findMissing(fullList, partialList);
     }
 }

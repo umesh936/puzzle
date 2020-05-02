@@ -13,7 +13,7 @@ package umesh.codeChallenege;
  * You can assume that the messages are decodable. For example, '001' is not allowed.
  * </Pre>
  */
-public class DailyCodeChallenge7 {
+public class DailyCodeChallenge7_d {
 
     private static Integer count = 0;
 
@@ -32,6 +32,6 @@ public class DailyCodeChallenge7 {
     }
 
     public static void main(String[] args) {
-        System.out.println(solution1("111"));
+        System.out.println(solution1("1111"));
     }
 }

@@ -15,7 +15,7 @@ import java.util.Map;
  * Bonus: Can you do this in one pass?
  * </pre>
  */
-public class DailyCodeChallenge1 {
+public class DailyCodeChallenge1_d {
 
     public static void solution1(List<Integer> input, Integer sum) {
         Map<Integer, Integer> map = new HashMap<>();

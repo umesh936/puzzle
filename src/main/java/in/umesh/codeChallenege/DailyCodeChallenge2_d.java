@@ -17,7 +17,7 @@ package umesh.codeChallenege;
  *
  * </pre>
  */
-public class DailyCodeChallenge2 {
+public class DailyCodeChallenge2_d {
 
     public static void solution1(Integer[] input) {
 

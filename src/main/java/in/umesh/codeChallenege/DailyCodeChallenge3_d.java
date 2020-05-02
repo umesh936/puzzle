@@ -33,7 +33,7 @@ package umesh.codeChallenege;
  *
  * </pre>
  */
-public class DailyCodeChallenge3 {
+public class DailyCodeChallenge3_d {
 
     private static String stringToProcess;
 

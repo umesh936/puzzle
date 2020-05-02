@@ -18,7 +18,7 @@ package umesh.codeChallenege;
  * We stay at each index until we find that index’s value and keep on swapping.
  * </Pre>
  */
-public class DailyCodeChallenge4 {
+public class DailyCodeChallenge4_d {
 
 
     // Function to find smallest positive
@@ -73,7 +73,7 @@ public class DailyCodeChallenge4 {
 
     // Driver code
     public static void main(String[] args) {
-        int arr[] = {2, 3, 7, 6, 8, 1, -10, 15};
+        int arr[] = {200, 300, 700, 600, 800, 100, -10, 1500};
         int arr_size = arr.length;
 
         int missing = findMissingNo(arr, arr_size);
