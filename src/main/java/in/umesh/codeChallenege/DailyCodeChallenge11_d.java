@@ -18,17 +18,6 @@ public class DailyCodeChallenge11_d {
 
     private static String[] givenDictionary = {"dog", "dear", "deal", "death"};
 
-    public static TrieNode addNode(TrieNode parent, Character character, boolean isWordEnd) {
-        TrieNode node = parent.location.get(character);
-        if (node == null) {
-            node = new TrieNode();
-            node.isWordComplete = isWordEnd;
-            parent.location.put(character, node);
-            return node;
-        }
-        return node;
-    }
-
     public static void main(String[] args) {
         Trie trie = new Trie();
         trie.insertNode(givenDictionary[0]);

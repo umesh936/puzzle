@@ -12,7 +12,6 @@ import umesh.helperDS.Node;
 public class CreateAndTraverseTree {
 
 
-
     public static void main(String[] args) {
         Node root = new Node(10);
         addNodeAsBinary(root, 3);
@@ -21,7 +20,37 @@ public class CreateAndTraverseTree {
         addNodeAsBinary(root, 19);
         addNodeAsBinary(root, 27);
         addNodeAsBinary(root, 1);
+        System.out.println(" ==== In Pre Order == ");
+        inPreOrder(root);
+        System.out.println(" ==== In  In Order == ");
+        inOrder(root);
+        System.out.println(" ==== In Post Order == ");
+        postOrder(root);
+    }
 
-        System.out.println(root);
+    public static void inPreOrder(Node node) {
+        if (node == null)
+            return;
+        System.out.println(node.value);
+        inPreOrder(node.left);
+        inPreOrder(node.right);
+
+    }
+
+    public static void inOrder(Node node) {
+        if (node == null)
+            return;
+        inOrder(node.left);
+        System.out.println(node.value);
+        inOrder(node.right);
+
+    }
+    public static void postOrder(Node node) {
+        if (node == null)
+            return;
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.println(node.value);
+
     }
 }
